@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artes y Pixeles - Talleres Presenciales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Elementos decorativos flotantes -->
+    <div class="floating-elements">
+        <div class="floating-element paint-brush" style="top: 15%; left: 10%;"><i class="fas fa-paint-brush"></i></div>
+        <div class="floating-element code" style="top: 25%; right: 15%;">&lt;/&gt;</div>
+        <div class="floating-element pixel" style="bottom: 30%; left: 20%;"></div>
+        <div class="floating-element palette" style="top: 60%; right: 10%;"><i class="fas fa-palette"></i></div>
+        <div class="floating-element code-block" style="bottom: 15%; right: 25%;">{ code }</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Artes y Pixeles</h1>
+            <p class="hero-subtitle">En un mundo donde todo es virtual, redescubramos el valor de lo presencial</p>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Concept Section -->
+    <section class="concept">
+        <div class="container">
+            <h2 class="section-title">Nuestra Propuesta</h2>
+            <p class="section-description">
+                Mientras el mundo se sumerge en lo virtual, nosotros apostamos por la experiencia presencial. 
+                Talleres donde el aprendizaje se vive, se toca y se comparte en comunidad.
+            </p>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-hands-helping"></i></div>
+                    <h3>Aprendizaje Práctico</h3>
+                    <p>Experiencias de aprendizaje tangibles y significativas</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Comunidad Real</h3>
+                    <p>Conexiones genuinas con personas que comparten tus intereses</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Creatividad Sin Límites</h3>
+                    <p>Un espacio donde la tecnología y el arte se encuentran</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section class="workshops">
+        <div class="container">
+            <h2 class="section-title">Nuestros Talleres</h2>
+            <p class="section-description">
+                Descubre nuestra variedad de talleres diseñados para todos los niveles y edades
+            </p>
+            
+            <div class="workshop-grid">
+                <div class="workshop-card" data-workshop="programacion">
+                    <div class="workshop-image">
+                        <img src="https://placehold.co/600x400/FF5733/FFFFFF?text=Programación" alt="Programación Básica">
+                        <span class="workshop-category tech">Tecnología</span>
+                    </div>
+                    <div class="workshop-content">
+                        <h3>Programación Básica</h3>
+                        <p>Aprende los fundamentos de la programación en un ambiente colaborativo y práctico.</p>
+                        <button class="more-info-btn">Más información</button>
+                    </div>
+                </div>
+
+                <div class="workshop-card" data-workshop="excel">
+                    <div class="workshop-image">
+                        <img src="https://placehold.co/600x400/33A8FF/FFFFFF?text=Excel" alt="Excel">
+                        <span class="workshop-category tech">Tecnología</span>
+                    </div>
+                    <div class="workshop-content">
+                        <h3>Excel (Básico a Avanzado)</h3>
+                        <p>Domina esta herramienta esencial para el ámbito profesional con ejercicios prácticos.</p>
+                        <button class="more-info-btn">Más información</button>
+                    </div>
+                </div>
+
+                <div class="workshop-card" data-workshop="ceramica">
+                    <div class="workshop-image">
+                        <img src="https://placehold.co/600x400/FF33A8/FFFFFF?text=Cerámica" alt="Cerámica">
+                        <span class="workshop-category art">Arte</span>
+                    </div>
+                    <div class="workshop-content">
+                        <h3>Cerámica Creativa</h3>
+                        <p>Explora el arte de la cerámica y crea piezas únicas con tus propias manos.</p>
+                        <button class="more-info-btn">Más información</button>
+                    </div>
+                </div>
+
+                <div class="workshop-card" data-workshop="ingles">
+                    <div class="workshop-image">
+                        <img src="https://placehold.co/600x400/33FF57/FFFFFF?text=Inglés" alt="Inglés">
+                        <span class="workshop-category lang">Idiomas</span>
+                    </div>
+                    <div class="workshop-content">
+                        <h3>Inglés Práctico</h3>
+                        <p>Aprende inglés con un enfoque conversacional y aplicado a situaciones reales.</p>
+                        <button class="more-info-btn">Más información</button>
+                    </div>
+                </div>
+
+                <div class="workshop-card" data-workshop="artes">
+                    <div class="workshop-image">
+                        <img src="https://placehold.co/600x400/A833FF/FFFFFF?text=Artes+Plásticas" alt="Artes Plásticas">
+                        <span class="workshop-category art">Arte</span>
+                    </div>
+                    <div class="workshop-content">
+                        <h3>Artes Plásticas</h3>
+                        <p>Desarrolla tu creatividad a través de diferentes técnicas artísticas.</p>
+                        <button class="more-info-btn">Más información</button>
+                    </div>
+                </div>
+
+                <div class="workshop-card" data-workshop="web">
+                    <div class="workshop-image">
+                        <img src="https://placehold.co/600x400/FFC233/FFFFFF?text=Desarrollo+Web" alt="Desarrollo Web">
+                        <span class="workshop-category tech">Tecnología</span>
+                    </div>
+                    <div class="workshop-content">
+                        <h3>Desarrollo Web</h3>
+                        <p>Crea tu propia página web desde cero con las tecnologías más actuales.</p>
+                        <button class="more-info-btn">Más información</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <p class="section-description">
+                Conoce a las personas detrás de Artes y Pixeles
+            </p>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://placehold.co/300x300/3357FF/FFFFFF?text=Kevin" alt="Kevin Turkienich">
+                    </div>
+                    <div class="team-content">
+                        <h3>Kevin Turkienich</h3>
+                        <p class="team-role">Desarrollador Web</p>
+                        <p>Especialista en desarrollo web con amplia experiencia en proyectos educativos.</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://placehold.co/300x300/FF3357/FFFFFF?text=Andrea" alt="Andrea Palmisano">
+                    </div>
+                    <div class="team-content">
+                        <h3>Andrea Palmisano</h3>
+                        <p class="team-role">Profesora de Artes Plásticas</p>
+                        <p>Artista y educadora apasionada por transmitir conocimientos artísticos.</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://placehold.co/300x300/57FF33/FFFFFF?text=Juan" alt="Juan Perez">
+                    </div>
+                    <div class="team-content">
+                        <h3>Juan Perez</h3>
+                        <p class="team-role">Ayudante</p>
+                        <p>Colaborador multidisciplinario que apoya en la organización de los talleres.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="section-title">¡Próximamente en tu ciudad!</h2>
+            <p class="section-description">
+                Estamos construyendo un espacio único donde la tecnología y el arte se encuentran.
+                Sé el primero en enterarte cuando abramos nuestras puertas.
+            </p>
+            <form class="signup-form">
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Mantenerme informado</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer-title">Artes y Pixeles</h2>
+            <p class="copyright">© <span id="current-year"></span> - Todos los derechos reservados</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="workshop-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title">Detalles del Taller</h2>
+            <div class="modal-body" id="modal-body">
+                <!-- Content will be inserted here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
